@@ -1,0 +1,152 @@
+*{
+ padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+
+header{
+background: rgb(35,35,30);
+  color: beige;
+
+  grid-column: 1/-1;
+  text-align: center;
+  }
+
+
+.menu{
+padding: 0 10px 30px 10px;
+display: grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+grid-gap: 20px 40px;
+}
+
+.nav-item {
+font-family: 'Raleway', sans-serif;
+}
+
+.sections{
+  background: beige;
+  color: rgb(35,35,30);
+  margin-bottom: -40px;
+  padding: 30px 0; 
+  grid-column: 1/-1;
+  text-align: center;
+  }
+
+.heading{
+  background: rgb(35,35,30);
+  color: beige;
+  margin-bottom: 30px;
+  padding: 30px 0; 
+  grid-column: 1/-1;
+  text-align: center;
+  }
+  
+.heading>h1{
+font-weight: 400;
+font-size: 32px;
+letter-spacing: 10px;
+margin-bottom: 10px;
+padding: 30px 0; 
+text-transform: uppercase;
+ }
+  
+.heading>h3{
+font-weight: 600;
+font-size: 22px;
+letter-spacing: 15px;
+text-transform: uppercase;
+}
+  
+.article-items{
+display: grid;
+position: relative;
+grid-template-columns:auto 1fr;
+border-radius: 15px;
+box-shadow: 0 0 15px #000000;
+transition: .2s ease-in-out;
+} 
+
+.article-items img{
+position: relative;
+width: 100%;
+height: 280px;
+border-radius: 15px 15px 0 0;
+cursor: pointer;
+} 
+ h1{
+grid-column: 1/-1;
+text-align: center;
+}
+
+ h2 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.details{
+padding: 20px 10px;
+display: grid;
+grid-template-rows: auto 1fr 50px;
+grid-row-gap: 15px;
+}
+
+.details-sub{
+display: grid;
+grid-template-columns: auto auto;
+}
+
+.details-sub>h5{
+font-weight: 600;
+font-size: 18px;
+}
+
+.precio{
+text-align: right;
+}
+
+.details>p{
+color: #7F7F7F;
+font-size: 15px;
+line-height: 28px;
+font-weight: 400;
+align-self: stretch; 
+}
+
+
+
+.details>button{
+background: #FF0000;
+border: none;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 600;
+border-radius: 5px;
+width: 180px;
+cursor: pointer; 
+}
+
+.details>button:hover{
+background: #A52A2A;
+}
+
+
+.redes{
+    background-color: rgb(35, 35, 30);
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+}
+
+.redes a{
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+
+}
+	

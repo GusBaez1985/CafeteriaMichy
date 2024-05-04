@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/GatoCafe.ico">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="css/form-css.css">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" </head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1 class="logo">Contáctanos</h1>
+
+        <div class="contenedor-form">
+            <div class="form-contacto">
+                <h3>Contactenos</h3>
+                <form id="form" class="form" action="https://formspree.io/f/xeqwdzbw" method="POST">
+            
+                    <p>
+                        <label for="fullname">Nombre y Apellido <span>*</span> </label>
+                        <input type="text" name="fullname" id="fullname">
+                    </p>
+                    
+                    <p>
+                        <label for="email">Correo Electrónico <span>*</span></label>
+                        <input type="email" name="email" id="email">
+                        <!-- <input required type="email" name="email" id="email"> -->
+                    </p>
+                    
+                    <p>
+                        <label for="phone">Telefono</label>
+                        <input type="tel" name="phone" id="phone">
+                    </p> 
+                    <p>
+                        <label for="Asunto">Asunto</label>
+                        <input type="text" name="Asunto" id="Asunto">
+                    </p>
+                    
+
+                    <p class="block">
+                        <label>Mensaje <span>*</span> </label>
+                        <textarea name="mensaje" rows="3" id="mensaje"></textarea>
+                    </p>
+
+
+                    <!-- your other form fields go here -->
+                    <button type="submit" class="btn primary full">Enviar</button>
+                </form>
+
+
+            </div>
+            <div class="form-info">
+                <h4>
+                    Mas Info
+                </h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Plaza Serrano</li>
+                    <li><i class="fa-solid fa-phone-volume"></i> Telefono 11-1111-1234</li>
+                    <li><i class="fa-regular fa-at"></i> cafeteriamichy@gmail.com</li>
+                </ul>
+                <p>Por cualquier duda, sugerencia, consultas, contactate con nosotros y en breve te responderemos.</p>
+                
+            </div>
+        </div>
+
+    </div>
+    <!-- Esto es de prueba para enviar el formulario desde js sin API
+    <a href="gustavodamianbaez@gmail.com" id="envioMail"> email</a>
+    <script src="contacto.js"></script> -->
+    <script src="js/formspree.js"></script>
+</body>
+
+</html>
